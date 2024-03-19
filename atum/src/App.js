@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Header } from "./containers";
+import { Navbar, Header, Companies } from "./containers";
 import "./app.css";
 
 const App = () => {
@@ -7,6 +7,7 @@ const App = () => {
     <div className="App">
       <Navbar />
       <Header />
+      <Companies />
     </div>
   );
 };
