@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import jarocin from "../../images/Jarocin.jpeg";
 import "./navbar.scss";
 
 const Navbar = () => {
