@@ -30,7 +30,7 @@ const Header = () => {
           <div className="stats">
             <div className="stat">
               <span>
-                <CountUp start={0} end={7} duration={8} />
+                <CountUp start={0} end={7} duration={10} />
                 <span className="plus">+</span>
               </span>
               <span className="secondaryText">Lat doświadczenia</span>
@@ -46,7 +46,7 @@ const Header = () => {
 
             <div className="stat">
               <span>
-                <CountUp start={50} end={100} duration={3} />
+                <CountUp start={50} end={100} duration={6} />
                 <span className="plus">+</span>
               </span>
               <span className="secondaryText">Uroczystości</span>
