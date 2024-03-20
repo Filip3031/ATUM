@@ -1,20 +1,15 @@
 import React from "react";
 import "./companies.scss";
-import Zetka from "../../images/Zetka.jpeg";
-import Jarocin from "../../images/jarocin-logo.jpeg";
-import Uniejow from "../../images/uniejow.jpeg";
-import Polsat from "../../images/Polsat.png";
-import Winobranie from "../../images/winobranie.jpeg";
 
 const Companies = () => {
   return (
     <section id="companies">
       <div className="container">
-        <img src={Jarocin} alt="" />
-        <img src={Polsat} alt="" />
-        <img src={Zetka} alt="" />
-        <img src={Winobranie} alt="" />
-        <img src={Uniejow} alt="" />
+        <img src="/images/jarocin-logo.jpeg" alt="" />
+        <img src="/images/Polsat.png" alt="" />
+        <img src="/images/Zetka.jpeg" alt="" />
+        <img src="/images/winobranie.jpeg" alt="" />
+        <img src="/images/uniejow.jpeg" alt="" />
       </div>
     </section>
   );

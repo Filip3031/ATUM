@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Klimatyzator",
+    "detail": "Klimatyzator w kolorze białym",
+    "image": "/images/klimatyzator.jpeg"
+  },
+  {
+    "name": "Wentylator Podłogowy",
+    "detail": "Mocny wentylator podłogowy w kolorze czarnym",
+    "image": "/images/wentylator-czarny.jpeg"
+  },
+  {
+    "name": "Stół Cateringowy Drewniany",
+    "detail": "Stół składany w kolorze drewnianym",
+    "image": "/images/stol-cateringowy-drewniany.jpeg"
+  },
+  {
+    "name": "Stół Cateringowy Plastikowy",
+    "detail": "Stół składany w kolorze białym",
+    "image": "/images/stol-cateringowy-plastikowy.jpeg"
+  },
+  {
+    "name": "Krzesło Tradycyjne",
+    "detail": "Krzesło tradycyjne w kolorze czarnym",
+    "image": "/images/ikea-krzeslo-czarne-tradycyjne.jpg"
+  },
+  {
+    "name": "Krzesło Tradycyjne",
+    "detail": "Krzesło tradycyjne w kolorze szarym",
+    "image": "/images/ikea-krzeslo-szare-tradycyjne.jpeg"
+  },
+  {
+    "name": "Krzesło Składane",
+    "detail": "Krzesło składane w kolorze czarnym",
+    "image": "/images/ikea-krzeslo-czarne-skladane.jpeg"
+  },
+  {
+    "name": "Wieszak",
+    "detail": "Wieszak na ubrania w kolorze białym",
+    "image": "/images/wieszak-ikea.jpeg"
+  },
+  {
+    "name": "Lustro Stojące",
+    "detail": "Lustro strojące w kolorze czarnym oraz białym",
+    "image": "/images/lustro-stojace-czarne.jpeg"
+  },
+  {
+    "name": "Oświetlenie LED",
+    "detail": "Halogen LED o różnych mocach",
+    "image": "/images/halogen.jpeg"
+  }
+]

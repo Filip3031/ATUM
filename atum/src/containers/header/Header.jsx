@@ -1,6 +1,5 @@
 import React from "react";
 import "./header.scss";
-import jarocin from "../../images/Jarocin.jpeg";
 import CountUp from "react-countup";
 
 const Header = () => {
@@ -57,7 +56,7 @@ const Header = () => {
 
         <div className="container-right">
           <div className="image-container">
-            <img src={jarocin} alt="" />
+            <img src="/images/Jarocin.jpeg" alt="" />
           </div>
         </div>
       </div>
