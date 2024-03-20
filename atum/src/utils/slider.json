@@ -1,5 +1,10 @@
 [
   {
+    "name": "Podłoga Przemysłowa",
+    "detail": "Idealna jako podłoże lub ścieżka",
+    "image": "/images/podloga.jpeg"
+  },
+  {
     "name": "Klimatyzator",
     "detail": "Klimatyzator w kolorze białym",
     "image": "/images/klimatyzator.jpeg"
@@ -22,7 +27,7 @@
   {
     "name": "Krzesło Tradycyjne",
     "detail": "Krzesło tradycyjne w kolorze czarnym",
-    "image": "/images/ikea-krzeslo-czarne-tradycyjne.jpg"
+    "image": "/images/ikea-krzeslo-czarne-tradycyjne.jpeg"
   },
   {
     "name": "Krzesło Tradycyjne",
