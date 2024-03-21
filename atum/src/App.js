@@ -1,5 +1,14 @@
 import React from "react";
-import { Navbar, Header, Companies, Equipments, Offer } from "./containers";
+import {
+  Navbar,
+  Header,
+  Companies,
+  Equipments,
+  Offer,
+  Tents,
+  Contact,
+  Footer,
+} from "./containers";
 import "./app.css";
 
 const App = () => {
@@ -10,6 +19,9 @@ const App = () => {
       <Companies />
       <Equipments />
       <Offer />
+      <Tents />
+      <Contact />
+      <Footer />
     </div>
   );
 };

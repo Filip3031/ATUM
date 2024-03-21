@@ -1,0 +1,104 @@
+#equipments {
+  .container {
+    padding: 1.5rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+    .head {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+
+      .best-choice {
+        color: orange;
+        font-size: 1.5rem;
+        font-weight: 600;
+      }
+
+      .our-eq {
+        color: #1f3e72;
+        font-weight: bold;
+        font-size: 2rem;
+      }
+    }
+
+    .swiper-tents {
+      padding: 4rem 0;
+
+      .swiper-wrapper {
+        justify-content: center;
+      }
+
+      .card {
+        display: flex;
+        height: 22.5rem;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 0.6rem;
+        padding: 1rem;
+        border-radius: 15px;
+        border: 1.5px solid black;
+        max-width: max-content;
+        margin: auto;
+        transition: all 300ms ease-in-out;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px;
+
+        &:hover {
+          scale: 1.025;
+          cursor: pointer;
+          box-shadow: 5px 5px 23px 1px rgba(66, 68, 90, 1);
+        }
+
+        img {
+          width: 100%;
+          width: 15rem;
+          height: 15rem;
+          object-fit: contain;
+          border-radius: 20px;
+        }
+        span {
+          font-weight: 900;
+          font-size: 1.2rem;
+        }
+
+        .name {
+          color: #1f3e72;
+        }
+
+        .detail {
+          color: rgb(140 139 139);
+          font-size: 0.9rem;
+          width: 15rem;
+          height: 2rem;
+        }
+      }
+    }
+  }
+}
+
+.buttons-tents {
+  display: none;
+  row-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: absolute;
+  gap: 1rem;
+  top: 0;
+  right: 0;
+  padding: 0.5rem;
+
+  button {
+    font-size: 1.3rem;
+    padding: 0.2rem 0.8rem;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+  }
+}

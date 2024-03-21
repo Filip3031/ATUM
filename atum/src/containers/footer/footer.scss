@@ -1,0 +1,46 @@
+#footer {
+  .container {
+    display: flex;
+    row-gap: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+    width: 100%;
+    background: #131110;
+
+    .left-side {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 1rem;
+
+      .description {
+        color: rgb(140 139 139);
+        font-size: 0.9rem;
+      }
+    }
+
+    .right-side {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+
+      .information {
+        color: white;
+        font-weight: bold;
+        font-size: 0.9rem;
+      }
+
+      .address,
+      .contact,
+      .email {
+        color: rgb(140 139 139);
+        font-size: 0.9rem;
+      }
+    }
+  }
+}

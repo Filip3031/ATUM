@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Namiot 3x3m",
+    "detail": "Kolor: Biały, Beżowy",
+    "image": "/images/namiot3x3.jpeg"
+  },
+  {
+    "name": "Namiot 3x4.5m",
+    "detail": "Kolor: Biały, Beżowy",
+    "image": "/images/namiot3x45.jpeg"
+  },
+  {
+    "name": "Namiot 3x6m",
+    "detail": "Kolor: Biały, Beżowy",
+    "image": "/images/namiot3x6.jpeg"
+  }
+]
