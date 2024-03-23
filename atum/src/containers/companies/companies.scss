@@ -2,17 +2,29 @@
   .container {
     display: flex;
     row-gap: 2rem;
-    justify-content: space-around;
-    gap: 1rem;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
     padding: 1.5rem;
-
+    max-width: 1280px;
+    margin: auto;
     img {
       width: 13rem;
       height: 5rem;
       object-fit: contain;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+
+  @media (min-width: 640px) and (max-width: 959px) {
+    .container {
+      justify-content: center;
     }
   }
 }

@@ -2,8 +2,6 @@ import React from "react";
 import "./contact.scss";
 import { MdCall } from "react-icons/md";
 import { IoIosMail } from "react-icons/io";
-import { MdSms } from "react-icons/md";
-import { FaWhatsappSquare } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -33,9 +31,11 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="button-container">
-                  <div className="button">
-                    <span>Zadzwoń teraz</span>
-                  </div>
+                  <a href="tel:+48790319878">
+                    <div className="button">
+                      <span>Zadzwoń teraz</span>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -51,9 +51,11 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="button-container">
-                  <div className="button">
-                    <span>Napisz teraz</span>
-                  </div>
+                  <a href="mailto: atum.namioty@gmail.com">
+                    <div className="button">
+                      <span>Napisz teraz</span>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -62,7 +64,7 @@ const Contact = () => {
 
         <div className="right-side">
           <div className="image-container">
-            <img src="images/biblioteka1.jpeg" alt="" />
+            <img src="images/biblioteka1.webp" alt="" />
           </div>
         </div>
       </div>

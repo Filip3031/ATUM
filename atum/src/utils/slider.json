@@ -2,56 +2,56 @@
   {
     "name": "Podłoga Przemysłowa",
     "detail": "Idealna jako podłoże lub ścieżka",
-    "image": "/images/podloga.jpeg"
+    "image": "/images/podloga.webp"
   },
   {
     "name": "Klimatyzator",
     "detail": "Klimatyzator w kolorze białym",
-    "image": "/images/klimatyzator.jpeg"
+    "image": "/images/klimatyzator.webp"
   },
   {
     "name": "Wentylator Podłogowy",
     "detail": "Mocny wentylator podłogowy w kolorze czarnym",
-    "image": "/images/wentylator-czarny.jpeg"
+    "image": "/images/wentylator-czarny.webp"
   },
   {
     "name": "Stół Drewniany",
     "detail": "Stół składany w kolorze drewnianym",
-    "image": "/images/stol-cateringowy-drewniany.jpeg"
+    "image": "/images/stol-cateringowy-drewniany.webp"
   },
   {
     "name": "Stół Plastikowy",
     "detail": "Stół składany w kolorze białym",
-    "image": "/images/stol-cateringowy-plastikowy.jpeg"
+    "image": "/images/stol-cateringowy-plastikowy.webp"
   },
   {
     "name": "Krzesło Tradycyjne",
     "detail": "Krzesło tradycyjne w kolorze czarnym",
-    "image": "/images/ikea-krzeslo-czarne-tradycyjne.jpeg"
+    "image": "/images/ikea-krzeslo-czarne-tradycyjne.webp"
   },
   {
     "name": "Krzesło Tradycyjne",
     "detail": "Krzesło tradycyjne w kolorze szarym",
-    "image": "/images/ikea-krzeslo-szare-tradycyjne.jpeg"
+    "image": "/images/ikea-krzeslo-szare-tradycyjne.webp"
   },
   {
     "name": "Krzesło Składane",
     "detail": "Krzesło składane w kolorze czarnym",
-    "image": "/images/ikea-krzeslo-czarne-skladane.jpeg"
+    "image": "/images/ikea-krzeslo-czarne-skladane.webp"
   },
   {
     "name": "Wieszak",
     "detail": "Wieszak na ubrania w kolorze białym",
-    "image": "/images/wieszak-ikea.jpeg"
+    "image": "/images/wieszak-ikea.webp"
   },
   {
     "name": "Lustro Stojące",
     "detail": "Lustro strojące w kolorze czarnym oraz białym",
-    "image": "/images/lustro-stojace-czarne.jpeg"
+    "image": "/images/lustro-stojace-czarne.webp"
   },
   {
     "name": "Oświetlenie LED",
     "detail": "Halogen LED o różnych mocach",
-    "image": "/images/halogen.jpeg"
+    "image": "/images/halogen.webp"
   }
 ]

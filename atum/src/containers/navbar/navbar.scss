@@ -18,8 +18,23 @@
     color: white;
     position: relative;
 
+    .bookmarks {
+      width: 100%;
+    }
+
     h3 {
-      transition: 0.75s;
+      transition: unset;
+    }
+
+    .links {
+      display: flex;
+      margin-top: 2rem;
+      justify-content: center;
+
+      .logo {
+        position: absolute;
+        left: 0;
+      }
     }
   }
 
@@ -43,6 +58,16 @@
     margin: 0 2rem;
     text-decoration: none;
     color: var(--textColor);
+  }
+
+  .phone {
+    a {
+      display: flex;
+
+      p {
+        margin-left: 10px;
+      }
+    }
   }
 
   a::before {
@@ -95,6 +120,12 @@
       transition: 1s;
       transform: translateX(100%);
       background-color: rgba(0, 0, 0, 0.8);
+
+      .links {
+        flex-direction: column;
+        gap: 3rem;
+        text-align: center;
+      }
     }
 
     .nav-btn {

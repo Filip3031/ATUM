@@ -5,11 +5,11 @@ const Companies = () => {
   return (
     <section id="companies">
       <div className="container">
-        <img src="/images/jarocin-logo.jpeg" alt="" />
-        <img src="/images/Polsat.png" alt="" />
-        <img src="/images/Zetka.jpeg" alt="" />
-        <img src="/images/winobranie.jpeg" alt="" />
-        <img src="/images/uniejow.jpeg" alt="" />
+        <img src="/images/jarocin-logo.webp" alt="" />
+        <img src="/images/Polsat.webp" alt="" />
+        <img src="/images/Zetka.webp" alt="" />
+        <img src="/images/winobranie.webp" alt="" />
+        <img src="/images/uniejow.webp" alt="" />
       </div>
     </section>
   );

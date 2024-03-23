@@ -31,16 +31,19 @@ const Offer = () => {
       <div className="container">
         <div className="left-side">
           <div className="image-container">
-            <img src="images/uniejow21-9.jpeg" alt="" />
+            <img src="images/uniejow21-9.webp" alt="" />
           </div>
         </div>
         <div className="right-side">
           <span className="title">Oferujemy</span>
           <span className="question">Co możemy Tobie zaproponować?</span>
           <span className="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil enim
-            voluptate <br /> sapiente nisi tempore dolore, quis incidunt
-            possimus aspernatur eius.
+            Oferujemy wysokiej jakości namioty, punktualną dostawę i
+            profesjonalny montaż oraz bogaty wybór wyposażenia dodatkowego.
+            Nasze namioty są idealnym rozwiązaniem nie tylko na profesjonalne
+            imprezy, ale także na wyjątkowe uroczystości, takie jak komunie i
+            wesela. Zapewniamy niezawodność, elegancję i komfort, aby Twoje
+            wydarzenie było wyjątkowe i niezapomniane.
           </span>
 
           <Accordion

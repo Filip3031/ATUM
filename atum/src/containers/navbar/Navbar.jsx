@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaPhoneSquareAlt } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import "./navbar.scss";
 
 const Navbar = () => {
@@ -19,13 +20,25 @@ const Navbar = () => {
   return (
     <section id="nav">
       <div className={"navbar" + (isNavOpen ? " hide" : "")}>
-        <h3>ATUM</h3>
         <nav className={responsiveNav(isNavOpen)}>
-          <a href="/#">OFERTA</a>
-          <a href="/#">CENNIK</a>
-          <a href="/#">GALERIA ZDJĘĆ</a>
-          <a href="/#">O NAS</a>
-          <a href="/#">KONTAKT</a>
+          <div className="links">
+            <h3 className="logo">
+              <Link to={"/"}>ATUM</Link>
+            </h3>
+            <a href="/#offer">OFERTA</a>
+
+            <Link to="/gallery">GALERIA ZDJĘĆ</Link>
+
+            <a href="/#header">O NAS</a>
+            <a href="/#contact">KONTAKT</a>
+            <div className="phone">
+              <a href="tel:+48790319878">
+                <FaPhoneSquareAlt size={20} />
+                <p>790 319 878</p>
+              </a>
+            </div>
+          </div>
+
           <button
             className="nav-btn nav-close-btn"
             onClick={() => showNavbar("close")}

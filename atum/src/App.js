@@ -1,28 +1,17 @@
 import React from "react";
-import {
-  Navbar,
-  Header,
-  Companies,
-  Equipments,
-  Offer,
-  Tents,
-  Contact,
-  Footer,
-} from "./containers";
+import { Main, Navbar, Gallery } from "./containers";
 import "./app.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 const App = () => {
   return (
-    <div className="App">
+    <BrowserRouter>
       <Navbar />
-      <Header />
-      <Companies />
-      <Equipments />
-      <Offer />
-      <Tents />
-      <Contact />
-      <Footer />
-    </div>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/gallery" element={<Gallery />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 

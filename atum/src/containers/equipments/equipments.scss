@@ -73,6 +73,19 @@
       }
     }
   }
+
+  @media (max-width: 640px) {
+    .container {
+      .head {
+        align-items: center;
+      }
+    }
+
+    .buttons {
+      position: initial;
+      margin-top: 1rem;
+    }
+  }
 }
 
 .buttons {
@@ -90,7 +103,7 @@
   button {
     font-size: 1.3rem;
     padding: 0.2rem 0.8rem;
-    color: blue;
+    color: #1f3e72;
     border: none;
     border-radius: 5px;
     background-color: whitesmoke;

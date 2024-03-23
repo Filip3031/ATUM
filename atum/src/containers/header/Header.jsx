@@ -1,6 +1,7 @@
 import React from "react";
 import "./header.scss";
 import CountUp from "react-countup";
+import { motion } from "framer-motion";
 
 const Header = () => {
   return (
@@ -9,10 +10,14 @@ const Header = () => {
         <div className="container-left">
           <div className="title">
             <div className="orange-circle" />
-            <h1>
+            <motion.h1
+              initial={{ y: "3rem", opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 2, type: "spring" }}
+            >
               Wynajem namiotów <br />
               na imprezy masowe <br /> i okolicznościowe
-            </h1>
+            </motion.h1>
           </div>
 
           <div className="description">
@@ -55,9 +60,14 @@ const Header = () => {
         </div>
 
         <div className="container-right">
-          <div className="image-container">
-            <img src="/images/Jarocin.jpeg" alt="" />
-          </div>
+          <motion.div
+            className="image-container"
+            initial={{ x: "10rem", opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 2, type: "spring" }}
+          >
+            <img src="/images/Jarocin.webp" alt="" />
+          </motion.div>
         </div>
       </div>
     </section>

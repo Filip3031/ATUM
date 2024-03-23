@@ -6,3 +6,5 @@ export { default as Offer } from "./offer/Offer";
 export { default as Tents } from "./tents/Tents";
 export { default as Contact } from "./contact/Contact";
 export { default as Footer } from "./footer/Footer";
+export { default as Gallery } from "./gallery/Gallery";
+export { default as Main } from "./main/Main";
